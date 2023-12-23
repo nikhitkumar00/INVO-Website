@@ -25,7 +25,7 @@ function Body() {
 					inventory effortlessly!
 				</div>
 				<div className="flex justify-center gap-4">
-					<button className="px-6 py-2 text-sm font-semibold bg-gray-200 rounded">
+					<button className="px-6 py-2 text-sm font-semibold bg-gray-200 rounded ">
 						Setup INVO
 					</button>
 					<button className="px-6 py-2 text-sm font-semibold text-white bg-gray-600 rounded">
