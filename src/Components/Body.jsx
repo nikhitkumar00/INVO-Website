@@ -1,3 +1,5 @@
+import { FaDownload } from "react-icons/fa6";
+import { IoDocumentOutline } from "react-icons/io5";
 function Body() {
     return (
         <div className="flex flex-1 items-center justify-between px-10">
@@ -16,19 +18,22 @@ function Body() {
                     </svg>
                 </div>
                 <div className="font-mono text-4xl tracking-wide text-gray-700">
-                    <span className="text-gray-500">Simplifying</span> Inventory Management
+                    <span className="text-gray-500">Simplifying</span> Inventory
+                    Management
                 </div>
-                <div className="text-left leading-7 font-medium">
+                <div className="text-left font-medium leading-7">
                     Your go-to web app for streamlined business operations.
                     Enjoy real-time statistics, seamless billing, detailed logs,
                     and intuitive stock management. Take control of your
                     inventory effortlessly!
                 </div>
                 <div className="flex justify-center gap-4">
-                    <button className="rounded bg-gray-200 px-6 py-2 text-sm font-semibold hover:bg-gray-300 ">
+                    <button className="flex items-center gap-2 rounded bg-gray-200 px-6 py-2 text-sm font-semibold hover:bg-gray-300 ">
+                        <FaDownload />
                         Setup INVO
                     </button>
-                    <button className="rounded bg-gray-600 px-6 py-2 text-sm font-semibold text-white hover:bg-gray-500">
+                    <button className="flex items-center gap-2 rounded bg-gray-600 px-6 py-2 text-sm font-semibold text-white hover:bg-gray-500">
+                        <IoDocumentOutline />
                         Documentation
                     </button>
                 </div>
