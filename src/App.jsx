@@ -3,13 +3,13 @@ import Footer from "./Components/Footer";
 import Navbar from "./Components/Navbar";
 
 function App() {
-	return (
-		<div className="h-screen">
-			<Navbar />
-			<Body />
-			<Footer />
-		</div>
-	);
+    return (
+        <div className="flex h-screen flex-col">
+            <Navbar />
+            <Body/>
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
