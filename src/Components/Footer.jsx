@@ -1,6 +1,6 @@
 function Footer() {
 	return (
-		<div className="flex justify-center animate-bounce">
+		<div className="flex animate-bounce justify-center">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				width="70"
