@@ -1,6 +1,6 @@
 function Navbar() {
     return (
-        <div className="flex items-center justify-between bg-gray-200 p-6 font-semibold uppercase ">
+        <div className="flex items-center justify-between bg-gray-200 p-6 px-2 font-semibold uppercase">
             <div>
                 <svg
                     className="w-20"
