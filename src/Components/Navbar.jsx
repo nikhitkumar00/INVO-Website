@@ -4,10 +4,10 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="fixed flex h-16 w-full items-center justify-between bg-gray-200 px-4 font-semibold uppercase">
+        <div className="fixed flex h-12 sm:h-16 w-full items-center justify-between bg-gray-200 px-4 font-semibold uppercase">
             <div>
                 <svg
-                    className="ml-2 w-14 md:w-20"
+                    className="ml-2 w-10 sm:w-14 md:w-20"
                     fill="#000000"
                     viewBox="0 0 128 39"
                     xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ function Navbar() {
             <div className="relative sm:hidden">
                 <svg
                     onClick={() => setIsOpen(!isOpen)}
-                    className="w-7  cursor-pointer hover:bg-gray-300 rounded-md"
+                    className="w-7  cursor-pointer rounded-md hover:bg-gray-300"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -50,16 +50,28 @@ function Navbar() {
                 </svg>
                 {isOpen ? (
                     <div className="absolute right-0 top-10 flex flex-col gap-2 rounded-md bg-gray-200 shadow-lg shadow-gray-400 md:hidden">
-                        <a className="px-4 text-sm py-2 rounded-md hover:bg-gray-300" href="#">
+                        <a
+                            className="rounded-md px-4 py-2 text-sm hover:bg-gray-300"
+                            href="#"
+                        >
                             Home
                         </a>
-                        <a className="px-4 text-sm py-2 rounded-md hover:bg-gray-300" href="#">
+                        <a
+                            className="rounded-md px-4 py-2 text-sm hover:bg-gray-300"
+                            href="#"
+                        >
                             Features
                         </a>
-                        <a className="px-4 text-sm py-2 rounded-md hover:bg-gray-300" href="#">
+                        <a
+                            className="rounded-md px-4 py-2 text-sm hover:bg-gray-300"
+                            href="#"
+                        >
                             Implementation
                         </a>
-                        <a className="px-4 text-sm py-2 rounded-md hover:bg-gray-300" href="#">
+                        <a
+                            className="rounded-md px-4 py-2 text-sm hover:bg-gray-300"
+                            href="#"
+                        >
                             Contact Us
                         </a>
                     </div>
