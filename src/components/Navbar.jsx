@@ -1,7 +1,16 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
+    const [theme, setTheme] = useState("light");
+
+    useEffect(() => {
+        if (theme === "light") {
+            document.documentElement.classList.remove("dark");
+        } else {
+            document.documentElement.classList.add("dark");
+        }
+    }, [theme]);
 
     return (
         <div className="flex h-12 w-full items-center justify-between bg-gray-200 px-4 font-semibold capitalize sm:h-16">
@@ -23,6 +32,9 @@ function Navbar() {
                     <a href="#">Contact Us</a>
                 </div>
                 <svg
+                    onClick={() =>
+                        setTheme(theme === "dark" ? "light" : "dark")
+                    }
                     className="w-5"
                     viewBox="0 0 15 15"
                     fill="none"
