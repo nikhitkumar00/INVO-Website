@@ -4,7 +4,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="fixed flex h-12 w-full items-center justify-between bg-gray-200 px-4 font-semibold capitalize sm:h-16">
+        <div className="flex h-12 w-full items-center justify-between bg-gray-200 px-4 font-semibold capitalize sm:h-16">
             <div>
                 <svg
                     className="ml-2 w-10 sm:w-14 md:w-20"
