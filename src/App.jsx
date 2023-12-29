@@ -4,9 +4,9 @@ import Navbar from "./components/Navbar";
 
 function App() {
     return (
-        <div className="flex md:h-screen flex-col pb-4">
+        <div className="flex flex-col pb-4 md:h-screen">
             <Navbar />
-            <Body/>
+            <Body />
             <Footer />
         </div>
     );
