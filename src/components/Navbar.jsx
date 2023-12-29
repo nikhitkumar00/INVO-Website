@@ -4,7 +4,7 @@ function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <div className="fixed flex h-12 w-full items-center justify-between bg-gray-200 px-4 font-semibold uppercase sm:h-16">
+        <div className="fixed flex h-12 w-full items-center justify-between bg-gray-200 px-4 font-semibold capitalize sm:h-16">
             <div>
                 <svg
                     className="ml-2 w-10 sm:w-14 md:w-20"
@@ -37,29 +37,73 @@ function Navbar() {
                     ></path>
                 </svg>
                 {isOpen ? (
-                    <div className="absolute right-0 top-10 flex flex-col gap-2 rounded-md bg-gray-200 shadow-lg shadow-gray-400 md:hidden">
+                    <div className="w-46 p-1 gap-3 absolute right-0 top-10 flex flex-col rounded-md bg-gray-200 shadow-lg shadow-gray-400 md:hidden">
                         <a
-                            className="rounded-md px-4 py-2 text-sm hover:bg-gray-300"
+                            className="flex gap-2 rounded-md px-4 py-2 text-sm hover:bg-gray-300"
                             href="#"
                         >
+                            <svg
+                                className="w-5"
+                                viewBox="0 0 15 15"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M6 11L6 4L10.5 7.5L6 11Z"
+                                    fill="currentColor"
+                                ></path>
+                            </svg>
                             Home
                         </a>
                         <a
-                            className="rounded-md px-4 py-2 text-sm hover:bg-gray-300"
+                            className="flex gap-2 rounded-md px-4 py-2 text-sm hover:bg-gray-300"
                             href="#"
                         >
+                            <svg
+                                className="w-5"
+                                viewBox="0 0 15 15"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M6 11L6 4L10.5 7.5L6 11Z"
+                                    fill="currentColor"
+                                ></path>
+                            </svg>
                             Features
                         </a>
                         <a
-                            className="rounded-md px-4 py-2 text-sm hover:bg-gray-300"
+                            className="flex gap-2 rounded-md px-4 py-2 text-sm hover:bg-gray-300"
                             href="#"
                         >
+                            <svg
+                                className="w-5"
+                                viewBox="0 0 15 15"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M6 11L6 4L10.5 7.5L6 11Z"
+                                    fill="currentColor"
+                                ></path>
+                            </svg>
                             Implementation
                         </a>
                         <a
-                            className="rounded-md px-4 py-2 text-sm hover:bg-gray-300"
+                            className="flex gap-2 rounded-md px-4 py-2 text-sm hover:bg-gray-300"
                             href="#"
                         >
+                            <svg
+                                className="w-5"
+                                viewBox="0 0 15 15"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M6 11L6 4L10.5 7.5L6 11Z"
+                                    fill="currentColor"
+                                ></path>
+                            </svg>
                             Contact Us
                         </a>
                     </div>
