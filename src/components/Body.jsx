@@ -1,6 +1,6 @@
 function Body() {
     return (
-        <div className="mt-14 flex flex-1 flex-col items-center justify-between px-10 md:flex-row">
+        <div className="flex grow flex-col items-center justify-between px-10 md:flex-row">
             <div className="w-full p-12 md:w-1/2">
                 <img src="../../images/pc.png" />
             </div>
