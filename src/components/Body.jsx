@@ -1,6 +1,6 @@
 function Body() {
     return (
-        <div className="relative pb-16 flex grow flex-col items-center justify-between px-10 md:flex-row  dark:bg-gray-950  dark:text-white">
+        <div className="relative pb-20 flex grow flex-col items-center justify-between px-10 md:flex-row  dark:bg-gray-950  dark:text-white">
             <div className="w-full p-12 md:w-1/2">
                 <img src="../../images/pc.png" />
             </div>
@@ -47,7 +47,7 @@ function Body() {
                     </button>
                 </div>
             </div>
-            <div className="absolute bottom-0 margin-auto flex animate-bounce justify-center">
+            <div className="absolute bottom-2 margin-auto flex animate-bounce justify-center">
                 <svg
                     className="w-10 p-2 bg-gray-200 rounded-full fill-black"
                     viewBox="0 0 15 15"
