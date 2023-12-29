@@ -37,7 +37,7 @@ function Navbar() {
                     ></path>
                 </svg>
                 {isOpen ? (
-                    <div className="w-46 p-1 gap-3 absolute right-0 top-10 flex flex-col rounded-md bg-gray-200 shadow-lg shadow-gray-400 md:hidden">
+                    <div className="w-46 absolute right-0 top-10 flex flex-col gap-3 rounded-md bg-gray-200 p-1 shadow-lg shadow-gray-400 md:hidden">
                         <a
                             className="flex gap-2 rounded-md px-4 py-2 text-sm hover:bg-gray-300"
                             href="#"
