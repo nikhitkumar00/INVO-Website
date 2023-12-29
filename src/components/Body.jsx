@@ -2,7 +2,7 @@ function Body() {
     return (
         <div className="mt-14 flex flex-1 flex-col items-center justify-between px-10 md:flex-row">
             <div className="w-full p-12 md:w-1/2">
-                <img src="https://bankmavericks.com/wp-content/uploads/2022/05/Home-Image-1-DG-500.png" />
+                <img src="../../images/pc.png" />
             </div>
             <div className="flex w-full flex-col justify-center gap-5 md:gap-7">
                 <div>
