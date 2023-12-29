@@ -13,7 +13,7 @@ function Navbar() {
     }, [theme]);
 
     return (
-        <div className="flex h-12 w-full items-center justify-between bg-gray-200 px-4 font-semibold capitalize sm:h-16 dark:bg-gray-900">
+        <div className="flex w-full items-center justify-between bg-gray-200 p-4 font-semibold capitalize dark:bg-gray-900">
             <div>
                 <svg
                     className="ml-2 w-10 fill-black sm:w-14 md:w-20 dark:fill-white"
