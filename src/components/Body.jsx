@@ -47,7 +47,7 @@ function Body() {
                     </button>
                 </div>
             </div>
-            <div className="absolute bottom-0 left-[50%] flex animate-bounce justify-center">
+            <div className="absolute bottom-0 margin-auto flex animate-bounce justify-center">
                 <svg
                     className="w-10 p-2 bg-gray-200 rounded-full fill-black"
                     viewBox="0 0 15 15"
