@@ -1,6 +1,6 @@
 function Body() {
     return (
-        <div className="relative pb-16 flex grow flex-col items-center justify-between px-10 md:flex-row  dark:bg-gray-950  dark:text-white">
+        <div className="relative flex grow flex-col items-center justify-between px-10 pb-16 md:flex-row  dark:bg-gray-950  dark:text-white">
             <div className="w-full p-12 md:w-1/2">
                 <img src="../../images/pc.png" />
             </div>
@@ -47,15 +47,13 @@ function Body() {
                     </button>
                 </div>
             </div>
-            <div className="absolute bottom-1 margin-auto flex animate-bounce justify-center">
+            <div className="absolute bottom-1 flex animate-bounce left-0 w-full justify-center">
                 <svg
-                    className="w-10 p-2 bg-gray-200 rounded-full fill-black"
+                    className="w-10 rounded-full bg-gray-200 fill-black p-2"
                     viewBox="0 0 15 15"
                     xmlns="http://www.w3.org/2000/svg"
                 >
-                    <path
-                        d="M4.18179 6.18181C4.35753 6.00608 4.64245 6.00608 4.81819 6.18181L7.49999 8.86362L10.1818 6.18181C10.3575 6.00608 10.6424 6.00608 10.8182 6.18181C10.9939 6.35755 10.9939 6.64247 10.8182 6.81821L7.81819 9.81821C7.73379 9.9026 7.61934 9.95001 7.49999 9.95001C7.38064 9.95001 7.26618 9.9026 7.18179 9.81821L4.18179 6.81821C4.00605 6.64247 4.00605 6.35755 4.18179 6.18181Z"
-                    ></path>
+                    <path d="M4.18179 6.18181C4.35753 6.00608 4.64245 6.00608 4.81819 6.18181L7.49999 8.86362L10.1818 6.18181C10.3575 6.00608 10.6424 6.00608 10.8182 6.18181C10.9939 6.35755 10.9939 6.64247 10.8182 6.81821L7.81819 9.81821C7.73379 9.9026 7.61934 9.95001 7.49999 9.95001C7.38064 9.95001 7.26618 9.9026 7.18179 9.81821L4.18179 6.81821C4.00605 6.64247 4.00605 6.35755 4.18179 6.18181Z"></path>
                 </svg>
             </div>
         </div>
