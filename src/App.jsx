@@ -1,12 +1,8 @@
-import Body from "./components/Body";
-import Navbar from "./components/Navbar";
+import Content from "./pages/Content";
 
 function App() {
     return (
-        <div className="flex flex-col h-svh">
-            <Navbar />
-            <Body />
-        </div>
+        <Content />
     );
 }
 
