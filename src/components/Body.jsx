@@ -1,6 +1,6 @@
 function Body() {
     return (
-        <div className="relative flex h-[calc(100vh-64px)] flex-col items-center justify-start px-10 md:flex-row  dark:bg-gray-950  dark:text-white">
+        <div className="flex h-[calc(100vh-64px)] flex-col items-center justify-start px-10 md:flex-row  dark:bg-gray-950  dark:text-white">
             <div className="w-full p-12 md:w-1/2">
                 <img src="../../images/pc.webp" alt="computer" loading="lazy" />
             </div>
