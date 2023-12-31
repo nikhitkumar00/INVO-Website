@@ -6,11 +6,11 @@ import Navbar from "../components/Navbar";
 const Content = () => {
     return (
         <>
-            <div className="flex h-dvh flex-col">
+            <div className="flex flex-col">
                 <Navbar />
                 <Body />
+                <Footer />
             </div>
-            <Footer />
         </>
     );
 };

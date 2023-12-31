@@ -1,7 +1,7 @@
 function Body() {
     return (
-        <div className="relative flex grow flex-col items-center justify-between px-10 pb-16 md:flex-row  dark:bg-gray-950  dark:text-white">
-            <div className="w-full p-12 md:w-1/2">
+        <div className="relative flex h-[calc(100vh-64px)] flex-col items-center justify-between px-10 pb-16 md:flex-row  dark:bg-gray-950  dark:text-white">
+            <div className="p-12 w-1/2">
                 <img src="../../images/pc.webp" alt="computer" loading="lazy"/>
             </div>
             <div className="flex w-full flex-col justify-center gap-5 md:gap-7">
